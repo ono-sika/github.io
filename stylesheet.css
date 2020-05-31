@@ -1,6 +1,30 @@
-.title {
-  color: #02ccba;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
-.top-wrapper{
-  background-image: url(https://github.com/ono-sika/github.io/blob/master/IMG-2916.JPG);
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+header {
+  height: 65px;
+  width:100%;
+  background-color: rgba(34,49,52,0.9);
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+.header-logo{
+  float:left;
+  color:white;
+}
+.top-wrapper {
+  padding:180px 0 100px 0;
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  color:white;
+  text-align:center;
+  background-size:cover;
 }
