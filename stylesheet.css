@@ -1,17 +1,4 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
-}
-li {
-  list-style: none;
-}
-header {
   height: 65px;
   width:100%;
   background-color: rgba(128,128,15,0.5);
