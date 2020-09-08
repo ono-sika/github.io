@@ -14,14 +14,18 @@ li {
 header {
   height: 65px;
   width:100%;
-  background-color: rgba(128,128,15,0.5);
+  background-color: rgba(105, 105, 105, .5);
   position: fixed;
   top:0;
   z-index: 10;
 }
+
+
 .header-logo{
   float:left;
   color:white;
+  font-family: cursive;
+  font-size:32px;
 }
 
 .header-right{
@@ -29,76 +33,76 @@ header {
   color:white;
 }
 .top-wrapper {
-  padding:500px 0 100px 0;
-  background-image:url(https://raw.githubusercontent.com/ono-sika/github.io/master/IMG-2913.JPG);
+  padding:700px 0 700px 0;
+  background-image:url(http://www.onosika.xyz/img/onosika03.jpg);
   color:white;
+  font-family: cursive;
   text-align:center;
   background-size:cover;
+  height:100%;
+}
+.container {
+  text-align: center;
 }
 
-.top-wrapper h1{
-  padding-top:30px;
+.intro-wrapper {
+  background-color:rgba(230,230,250,1);
 }
 
-
-.intro {
-  margin-top:100px;
-  margin-bottom:50px;
-  margin:0 auto;
-  text-align: center;
-background-color:rgba(255,255,0,0.5);
 }
-
-.onosika {
-  background-color:rgba(255,255,0,0.5);
+.obi {
   text-align: center;
-  margin-bottom:20px;
-}
-.section-title {
-  margin-top: 50px;
-  background-color:rgba(255,255,0,0.5);
-  text-align: center;
-  width:100px;
-  height: 50px;
-  margin: 0 auto;
 
 }
-.contents-item {
-  text-align: center;
+
+.obi h2 {
+  background-color:rgba(105.105.105,0.5);
+    padding:20px 0 20px 0;
 }
-.incho {
-  background-color:rgba(255,255,0,0.5);
-  text-align: center;
-  width: 100px;
-  height: 50px;
-  margin: 0 auto;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  }
-.sinryo {
-  margin-top:50px;
-  margin-bottom:100px;
-  background-color:rgba(255,255,0,0.5);
-  text-align: center;
-  width:100px;
-  height:50px;
-  margin:0 auto;
+.obi:hover {
+  opacity:1;
+  background-color:#FFFF99;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  border: solid 1px black;
+}
+.photo {
+  height:700px;
+}
+.photo2 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top:50px;
+}
+
+.item {
+  flex-shrink:3;
+  width:25%;
 }
 
 .contact-form {
-  padding-top:100px;
-  text-align: center;
+  margin-top: 300px;
 }
 
 input,textarea {
-  width:400px;
-  padding:20px 20px;
-  margin-top:30px;
-  margin-bottom: 10px;
-  margin-left: 300px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  width: 400px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
-.contact-submit{
-  margin-top: 20px;
+
+.contact-submit {
+  background-color:#dee7ec;
+  color: #889eab;
+  margin-top: 50px;
 }
 
 footer {
@@ -107,20 +111,15 @@ footer {
   background-color: rgba(34,49,52,0.9);
 
 }
-
+.footer-list {
+  float:right;
+}
 .footer-list li {
   color:white;
-  float:left;
-  padding:40px 20px;
+  padding-bottom:20px;
 }
 .footer-logo{
   float:left;
   font-size: 20px;
   color:white;
-}
-
-
-
-.footer-list li {
-  padding-bottom: 20px;
 }
