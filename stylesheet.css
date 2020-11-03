@@ -128,7 +128,7 @@ table th, table td {
 }
 .item {
  width:25%;
-  
+  height:auto;
   flex-shrink:3;
   margin-right:5px;
 }
