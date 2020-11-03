@@ -111,6 +111,7 @@ table th, table td {
   width:100%;
   background-color:lavenderblush;
   color:#A0522D;
+  height:700px;
 }
 .photo2 {
   display:flex;
@@ -127,7 +128,7 @@ table th, table td {
 width:25%;
 height:auto;
 
-  margin-right:50px;
+  margin-right:10px;
 }
 
 .contact-form {
