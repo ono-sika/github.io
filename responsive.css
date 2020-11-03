@@ -4,9 +4,7 @@
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
-  display:flex;
-  flex-direction:column;
-  justify-content: space-between;
-  align-items: center;
-  padding-top:50px
+img {
+    max-width: 100%;
+    height: auto;
 }
