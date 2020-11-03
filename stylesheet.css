@@ -108,19 +108,15 @@ table th, table td {
   margin:30px;
 }
 .photo-wrapper {
-  height:500px;
   width:100%;
   background-color:lavenderblush;
   color:#A0522D;
 }
 .photo2 {
   display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-top:50px;
+  justify-content: space-between;
+  padding:30px;
   height:500px;
- 
 }
 .access-wrapper {
   padding:55px 0;
@@ -128,10 +124,10 @@ table th, table td {
   background-color:azure;
 }
 .item {
- width:25%;
-  height:auto;
-  flex-shrink:4;
-  margin-right:5px;
+width:25%;
+height:auto;
+
+  margin-right:50px;
 }
 
 .contact-form {
