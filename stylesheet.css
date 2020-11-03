@@ -12,18 +12,22 @@ li {
   list-style: none;
 }
 header {
-  height: 65px;
+  height: 50px;
   width:100%;
-  background-color: rgba(105, 105, 105, .5);
+  background-color:#fff;
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
   position: fixed;
   top:0;
+  left:0;
+  right:0;
   z-index: 10;
+  line-height: 50px;
 }
 
 
 .header-logo{
   float:left;
-  color:white;
+  color:#777;
   font-family: cursive;
   font-size:32px;
 }
@@ -32,58 +36,98 @@ header {
   float:right;
   color:white;
 }
+
+.header-right li {
+  float:left;
+}
+
+.header-right a {
+  margin-right:10px;
+  color:#323A45;
+  text-decoration:none;
+  font-weight: 700;
+}
+
 .top-wrapper {
   padding:700px 0 700px 0;
-  background-image:url(http://www.onosika.xyz/img/onosika03.jpg);
+  background-image:url(https://raw.githubusercontent.com/ono-sika/github.io/master/onosika03.jpg);
   color:white;
   font-family: cursive;
   text-align:center;
   background-size:cover;
-  height:100%;
+  height:50%;
+  position:relative;
+}
+.top-section {
+  position:absolute;
+  top:200px;
+  left:150px;
+  text-align:left;
+}
+.top-section h2{
+  font-family: 'Dosis', sans-serif;
+ color: #d0d0d0;
 }
 .container {
   text-align: center;
 }
 
-.intro-wrapper {
-  background-color:rgba(230,230,250,1);
+.middle-wrapper{
+  width:100%;
+  height:30%;
+  text-align:center;
+  background-color:rgb(255 255 224);
+  padding:55px 0;
 }
-
+.middle {
+  display:flex;
+  justify-content: space-around;
+  color:#A0522D;
 }
-.obi {
-  text-align: center;
-
+.subject{
+  width:60%;
+  text-align:left;
 }
-
-.obi h2 {
-  background-color:rgba(105.105.105,0.5);
-    padding:20px 0 20px 0;
-}
-.obi:hover {
-  opacity:1;
-  background-color:#FFFF99;
-}
-
 table {
   border-collapse: collapse;
+  width:100%;
 }
 table th, table td {
-  border: solid 1px black;
+  border: groove 5px orange;
+  border-radius: 20px;
+  padding:10px;
 }
-.photo {
+.fas{
+  margin-right:10px;
+}
+.s0 p {
+  text-align:left;
+}
+
+.s1.h2{
+  margin:30px;
+}
+.photo-wrapper {
   height:700px;
+  width:100%;
+  background-color:lavenderblush;
+  color:#A0522D;
 }
 .photo2 {
   display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-top:50px;
+  justify-content: space-between;
+  padding:30px 50px;
+  height:50%;
 }
-
+.access-wrapper {
+  padding:55px 0;
+  color:#A0822D;
+  background-color:azure;
+}
 .item {
-  flex-shrink:3;
-  width:25%;
+ width:25%;
+
+  margin-right:50px;
 }
 
 .contact-form {
@@ -107,19 +151,24 @@ input,textarea {
 
 footer {
   height: 65px;
-  width:100%;
+
   background-color: rgba(34,49,52,0.9);
 
 }
+
+.middle2 {
+  display:flex;
+  justify-content: space-between;
+}
 .footer-list {
-  float:right;
+
 }
 .footer-list li {
   color:white;
   padding-bottom:20px;
 }
 .footer-logo{
-  float:left;
+
   font-size: 20px;
   color:white;
 }
