@@ -119,6 +119,7 @@ table th, table td {
   justify-content: space-around;
   align-items: center;
   padding-top:50px;
+  height:500px;
  
 }
 .access-wrapper {
@@ -129,7 +130,7 @@ table th, table td {
 .item {
  width:25%;
   height:auto;
-  flex-shrink:3;
+  flex-shrink:4;
   margin-right:5px;
 }
 
