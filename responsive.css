@@ -5,7 +5,7 @@
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
-.img {
+.item {
     width: 100%;
-    height: auto;
+    
 }
