@@ -1,8 +1,11 @@
 @media all and (max-width: 1000px) {
+.photo2 {
+    display:flex;
+    flex-direction:column;
 .item {
-    width:100%;
-}
-
+    width: 100%;
+    
+    }
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
  
