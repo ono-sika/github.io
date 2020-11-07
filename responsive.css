@@ -1,5 +1,6 @@
 @media all and (max-width: 1000px) {
-
+.img {
+    width:100%;
 }
 
 /* モバイル向けレイアウト */
